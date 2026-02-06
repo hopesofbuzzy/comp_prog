@@ -10,3 +10,5 @@ for line in sys.stdin:
 
 # Получение всех элементов вне зависимости от количества пробелов или переносов
 print(sys.stdin.read().split())
+
+sys.stdout.write("Hello")
