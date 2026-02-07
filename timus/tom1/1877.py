@@ -1,0 +1,1 @@
+print("no" if int(input()) % 2 == 1 and int(input()) % 2 == 0 else "yes")

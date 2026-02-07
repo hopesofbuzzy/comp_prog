@@ -12,3 +12,5 @@ for line in sys.stdin:
 print(sys.stdin.read().split())
 
 sys.stdout.write("Hello")
+
+print([input(), input()])
