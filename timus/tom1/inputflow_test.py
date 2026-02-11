@@ -9,7 +9,7 @@ for line in sys.stdin:
     print(line[:-1])
 
 # Получение всех элементов вне зависимости от количества пробелов или переносов
-print(sys.stdin.read().split())
+print(sys.stdin.read(3).split())
 
 sys.stdout.write("Hello")
 
